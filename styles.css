@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid {
+  background-color: cadetblue;
+  height: 100vh;
+}
+.cube {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 10%;
+}
+.FirstPlayer,
+.SecondePlayer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+body > div > div > div.col-lg-6.mx-auto {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+}
+.btn {
+  font-size: 24px;
+  padding: 15px 30px;
+  width: 150px;
+  height: 80px;
+}
